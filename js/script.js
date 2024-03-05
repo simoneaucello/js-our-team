@@ -44,13 +44,13 @@ for(let ourTeam of team){
 
   output.innerHTML += `
   <div class="col">
-  <div class="card sa_card" style="width: 18rem;">
-  <img src="${ourTeam.img}" class="card-img-top" alt="${ourTeam.name}">
-    <div class="card-body">
-      <h5 class="card-title">${ourTeam.name}</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">${ourTeam.role}</h6>
+    <div class="card sa_card" style="width: 18rem;">
+      <img src="${ourTeam.img}" class="card-img-top" alt="${ourTeam.name}">
+        <div class="card-body">
+          <h5 class="card-title">${ourTeam.name}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">${ourTeam.role}</h6>
+        </div>
     </div>
   </div>
-</div>
 `
 }

@@ -17,4 +17,7 @@ Trasformare la stringa foto in una immagine effettiva
 
 **BONUS 2:**
 Organizzare i singoli membri in card/schede
-
+## Svolgimento
+1. creo un array di oggetti contententi le informazioni di ogni singolo membro del team
+2. creo un ciclo for of per assegnare ad una variabile le informazioni di ogni oggetto
+3. creo un elemento card in HTML in cui stampo le proprietà degli oggetti 
